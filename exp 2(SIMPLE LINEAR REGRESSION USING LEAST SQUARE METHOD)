@@ -29,3 +29,4 @@ from sklearn.linear_model import LinearRegression
 x_reshaped = x.reshape((len(x), 1))
 reg = LinearRegression().fit(x_reshaped, y)
 print(reg.score(x_reshaped, y))
+
